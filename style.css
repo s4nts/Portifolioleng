@@ -1,0 +1,112 @@
+* {
+  font-family: Arial, Helvetica, sans-serif;
+  align-self: center;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    background-image: linear-gradient(to bottom, #013d56, #3c717b);
+    height: 100%;
+  }
+
+  h1#nome {
+    color: rgb(199, 212, 212);
+    text-align: center;
+  }
+
+  div#idiomas {
+    height: auto;
+  }
+
+  div#gif {
+    width: auto;
+    height: auto;
+    border-radius: 50px;
+  }
+  #gif img {
+    border-radius: 50%;
+    height: 240px;
+    width: 240px;
+    object-fit: cover;
+  }
+
+  .lista {
+    display: inline-flex;
+    list-style: none;
+    padding: 0;
+  }
+
+  .lista li {
+    margin: 0 20px;
+    font-size: 35px;
+  }
+  
+  .lista a {
+    text-decoration: none;
+    color: white;
+    font-weight: normal;
+    transition: font-weight 0.1s ease;
+  }
+  
+  .lista a:hover {
+    font-weight: bold;
+  }
+
+  li a {
+    text-decoration: none;
+    color: rgb(199, 212, 212);
+  }
+
+  div#bio {
+    border-radius: 50px;
+    background-color: #00364d;
+    width: auto;
+    height: auto;
+    margin: 5%;
+    text-align: center;
+  }
+
+  h2#bio2 {
+    color: rgb(199, 212, 212);
+    font-size: 1em;
+    text-align: justify;
+    margin: 5%;
+  }
+
+  div#bio3 {
+    border-radius: 50px;
+    background-color: rgb(199, 212, 212);
+    width: auto;
+    height: auto;
+    margin: 5%;
+  }
+
+  h2#about {
+    color: #001118;
+    font-size: 1em;
+    text-align: justify;
+    margin: 5%;
+  }
+  
+  footer {
+    margin-top: auto; 
+  }
+
+  p#direitos {
+    color: aliceblue;
+  }
+
+  img {
+    align-content: center;
+  }
+
+  #formulario {
+    color: rgb(199, 212, 212);
+    align-self: center;
+    align-items: center;
+    align-content: center;
+    text-align: center;
+  }
+  
